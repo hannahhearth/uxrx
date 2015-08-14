@@ -41,7 +41,7 @@ configure :development do
 end
 
 activate :blog do |blog|
-  blog.prefix = "blog"
+  blog.permalink = "blog"
 end
 
 #
